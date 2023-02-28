@@ -4,7 +4,8 @@
 
 import csv
 import struct
-file_name = 'D:\\440hz_0db_2ch_iis.csv'
+#file_name = 'D:\\440hz_0db_2ch_iis.csv'
+file_name = 'D:\\Eagles_Hotel_California_Vbass.csv'
 
 data = []
 
