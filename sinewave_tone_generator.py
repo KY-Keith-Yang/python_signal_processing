@@ -15,7 +15,7 @@ fre = 440  #sinewave frequency
 phi = 0   # initial phase
 time = 20    # time second
 ch_num = 1 # mono = 1 or stereo = 2
-quantify_bit = 2 # 16bit = 1 or 32bit = 2
+quantify_bit = 1 # 16bit = 1 or 32bit = 2
 file_name = '440Hz.wav'   # define file name
 #Tp = T*fs   #total point
 #Ts = []
