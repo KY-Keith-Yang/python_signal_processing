@@ -11,12 +11,12 @@ import struct
 # generate config parameter
 gain_dB = 0    # dB
 fs = 44100  # samperate
-fre = 440  #sinewave frequency
+fre = 10  #sinewave frequency
 phi = 0   # initial phase
-time = 20    # time second
+time = 1    # time second
 ch_num = 2 # mono = 1 or stereo = 2
-quantify_bit = 2 # 16bit = 1 or 32bit = 2
-file_name = '440Hz.wav'   # define file name
+quantify_bit = 1 # 16bit = 1 or 32bit = 2
+file_name = '10Hz.wav'   # define file name
 #Tp = T*fs   #total point
 #Ts = []
 #data = []
