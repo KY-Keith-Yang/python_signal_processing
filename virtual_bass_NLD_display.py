@@ -40,8 +40,9 @@ for i in range(data.shape[0]):
 
 
 
-plt.plot(time,yn/max(yn),label = "full wave integrator")
-plt.plot(time,data[:,0],label = "input")
+plt.plot(time,yn/max(yn),"--",label = "full wave integrator")
+plt.plot(time,data[:,0],"-.",label = "input")
+plt.plot(time,np.abs(data[:,0]),label = "full wave rectification")
 #plt.plot(time,np.abs(data[:,0]),label = "full wave")
 #plt.plot(time, data[:,1],label = "Right channel")
 plt.legend()
